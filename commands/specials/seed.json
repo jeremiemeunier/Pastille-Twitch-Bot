@@ -1,0 +1,7 @@
+{
+    "commands": [
+        "seed"
+    ],
+    "perms": [ "viewer" ],
+    "message": "La seed est 8624896"
+}

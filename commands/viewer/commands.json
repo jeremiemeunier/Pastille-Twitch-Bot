@@ -1,0 +1,12 @@
+{
+    "commands": [
+        "commandes",
+        "commands",
+        "commande",
+        "command",
+        "cmds",
+        "cmd"
+    ],
+    "perms": [ "viewer" ],
+    "message": "Voici la liste des commandes, ajoute un \"!\" devant : discord, notifs, replay, join, planning, youtube, quoiquonfait. Retrouve les aussi sur : https://pastille.pookswebservice.fr/twitch#commands"
+}

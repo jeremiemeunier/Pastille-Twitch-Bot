@@ -1,0 +1,7 @@
+{
+    "commands": [
+        "pastille"
+    ],
+    "perms": [ "viewer" ],
+    "message": "/me Qui suis-je ? Que fait-je ? Où vais-je ?"
+}

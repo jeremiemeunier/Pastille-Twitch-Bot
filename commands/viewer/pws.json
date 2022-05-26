@@ -1,0 +1,8 @@
+{
+    "commands": [
+        "pws",
+        "pookswebservice"
+    ],
+    "perms": [ "viewer" ],
+    "message": "PWS --> PooksWebService : envie de découvrir mes différents projets de développement : https://github.com/jeremiemeunier"
+}

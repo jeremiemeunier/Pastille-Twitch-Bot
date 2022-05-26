@@ -1,0 +1,9 @@
+{
+    "commands": [
+        "youtube",
+        "ytb",
+        "yt"
+    ],
+    "perms": [ "viewer" ],
+    "message": "Mes bétises sont aussi disponible sur youtube --> https://darkbichon.tv/youtube"
+}

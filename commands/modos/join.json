@@ -1,0 +1,7 @@
+{
+    "commands": [
+        "join"
+    ],
+    "perms": [ "moderator", "admin", "broadcaster" ],
+    "message": "Ce n'est pas la peine de demander à rejoindre la partie. Si il y a une possibilitée ce sera indiqué dans le titre du live."
+}

@@ -1,0 +1,7 @@
+{
+    "commands": [
+        "notifs"
+    ],
+    "perms": [ "viewer" ],
+    "message": "Rendez-vous sur le serveur discord de La Niche --> https://darkbichon.tv/discord dans le channel auto-roles et fait : !role list"
+}
