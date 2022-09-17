@@ -28,7 +28,7 @@ client.on('message', (channel, tags, message, self) => {
 
   if(!message.startsWith('!') && !self && rules < 9) { rules++; } // Tout les 10 messages hors bot et commandes on envoie ces messages 
   else if(!message.startsWith('!') && !self) {
-    client.say(channel, `Quelques règles de bienséance : Tu ne spammera pas  -  Les liens tu enverra au modérawouf d'abord (pour les connaîtres : /mods)  -  Tu n'insultera pas\r\n`);
+    client.say(channel, `Quelques règles de bienséance : Tu ne spammera pas  -  Les liens tu enverra aux vigiles d'abord (pour les connaîtres : /mods)  -  Tu n'insultera pas\r\n`);
     rules = 0;
   }
 
@@ -38,10 +38,10 @@ client.on('message', (channel, tags, message, self) => {
 
     switch(random) {
       case 0:
-        client.say(channel, `/announce Rejoignez nous sur discord --> https://darkbichon.tv/discord`);
+        client.say(channel, `/announce Rejoignez nous sur discord --> https://p.ws/discord`);
         break;
       case 1:
-        client.say(channel, `/announce Retrouve les replays et les vidéos sur youtube --> https://darkbichon.tv/youtube`);
+        client.say(channel, `/announce Retrouve les replays et les vidéos sur youtube --> https://p.ws/youtube`);
         break;
     }
 
@@ -90,8 +90,14 @@ client.on('message', (channel, tags, message, self) => {
         case 'wyzzou':
           client.say(channel, `File découvrir WyZzeur --> https://twitch.tv/wyzzeur <-- il n'y a que des personnes INCROYAUX`);
           break;
+        case 'loly':
+        case 'lolyprime':
+        case 'troly':
+        case 'lolytroly':
+          client.say(channel, `File découvrir lolytroly --> https://twitch.tv/lolytroly`);
+          break;
         case 'social':
-          client.say(channel, `Retrouve moi un peu partout : Insta --> https://darkbichon.tv/instagram / Twitter --> https://twitter.com/DarkBichon01 / Youtube --> https://darkbichon.tv/youtube / Discord --> https://darkbichon.tv/discord`);
+          client.say(channel, `Retrouve moi un peu partout : Insta --> https://p.ws/instagram / Twitter --> https://twitter.com/DarkBichon01 / Youtube --> https://p.ws/youtube / Discord --> https://p.ws/discord`);
           break;
       }
     }
@@ -99,39 +105,39 @@ client.on('message', (channel, tags, message, self) => {
     // public command
     switch (command) {
       case 'discord':
-        client.say(channel, `Retrouve nous sur le discord de la niche --> https://darkbichon.tv/discord`);
+        client.say(channel, `Retrouve nous sur le discord de la niche --> https://p.ws/discord`);
         break;
       case 'youtube':
       case 'ytb':
       case 'yt':
       case 'replay':
-          client.say(channel, `Mes bétises sont aussi disponible sur youtube --> https://darkbichon.tv/youtube`);
+          client.say(channel, `Mes bétises sont aussi disponible sur youtube --> https://p.ws/youtube`);
           break;
       case 'work':
       case 'quoiquonfait':
         client.say(channel, `On design le manoir de votre serviteur`);
         break;
       case 'planning':
-        client.say(channel, `Euh... on verra sinon c'est ici --> https://darkbichon.tv/planning`);
+        client.say(channel, `Euh... on verra sinon c'est ici --> https://p.ws/planning`);
         break;
       case 'deniche':
         client.say(channel, `DéNICHE est l'émission ou je code, design ou découvre des sites et des technologies.`);
         break;
       case 'notifs':
-        client.say(channel, `Rendez-vous sur le serveur discord de La Niche --> https://darkbichon.tv/discord dans le channel auto-roles et fait : !role list`);
+        client.say(channel, `Rendez-vous sur le serveur discord de La Niche --> https://p.ws/discord dans le channel #commandes et fait : /notifs`);
         break;
-      case 'owncube':
-        client.say(channel, `Own Cube est un serveur Minecraft ⛏️ privé sur invitation en 1.18 - Retrouve tout les paramètres du serveur sur https://owncube.darkbichon.tv`);
-        break;
-      case 'team':
-        client.say(channel, `Je fait partie de la team Pinpindustries (le détails sur : https://owncube.darkbichon.tv/teams)`);
-        break;
-      case 'projet':
-        client.say(channel, `Mon projet est de créer une zone avec différentes usines redstone sur un thème industriel/steampunk`);
-        break;
-      case 'seed':
-        client.say(channel, `La seed est 10532435`);
-        break;
+      //case 'owncube':
+      //  client.say(channel, `Own Cube est un serveur Minecraft ⛏️ privé sur invitation en 1.18 - Retrouve tout les paramètres du serveur sur https://owncube.darkbichon.tv`);
+      //  break;
+      //case 'team':
+      //  client.say(channel, `Je fait partie de la team Pinpindustries (le détails sur : https://owncube.darkbichon.tv/teams)`);
+      //  break;
+      //case 'projet':
+      //  client.say(channel, `Mon projet est de créer une zone avec différentes usines redstone sur un thème industriel/steampunk`);
+      //  break;
+      //case 'seed':
+      //  client.say(channel, `La seed est 10532435`);
+      //  break;
       case 'mods':
         client.say(channel, `La liste des mods que j'utilise : InGameStats, Map Tooltip, Shulker Tooltip, Replay Mod, Simple voice Chat, Visible Barriers, Tweakeroo, Sound Physics Remastered et Xaero's World Map`);
         break;
@@ -149,8 +155,13 @@ client.on('message', (channel, tags, message, self) => {
         client.say(channel, `/me Qui suis-je ? Que fait-je ? Où vais-je ?`);
         break;
       case 'pws':
-        client.say(channel, `PWS --> PooksWebService : envie de découvrir mes différents projets de développement : https://github.com/jeremiemeunier`);
+        client.say(channel, `PWS --> PooksWebService : envie de découvrir mes différents projets de développement : https://p.ws/github`);
         break;
+      case 'git':
+      case 'github':
+      case 'hub':
+          client.say(channel, `Envie de voir mon code ? C'est ici --> https://p.ws/github`);
+          break;
     }
   }
 });
