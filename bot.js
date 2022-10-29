@@ -162,6 +162,12 @@ client.on('message', (channel, tags, message, self) => {
       case 'hub':
           client.say(channel, `Envie de voir mon code ? C'est ici --> https://p.ws/github`);
           break;
+          
+      case 'satisfactory':
+        client.say(channel, `Satisfactory est un jeu de construction d’usines en vue à la première personne dans un monde ouvert avec une touche d’exploration et de combats. Jouez seul ou entre amis, explorez une planète inconnue, construisez des usines à plusieurs niveaux et des tapis roulants à l’infini !`);
+        client.say(channel, `--> https://store.steampowered.com/app/526870/Satisfactory/`);
+        client.say(channel, `--> https://store.epicgames.com/fr/p/satisfactory`);
+        break;
     }
   }
 });
