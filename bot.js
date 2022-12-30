@@ -97,7 +97,7 @@ client.on('message', (channel, tags, message, self) => {
           client.say(channel, `File découvrir lolytroly --> https://twitch.tv/lolytroly`);
           break;
         case 'social':
-          client.say(channel, `Retrouve moi un peu partout : Insta --> https://p.ws/instagram / Twitter --> https://twitter.com/DarkBichon01 / Youtube --> https://p.ws/youtube / Discord --> https://p.ws/discord`);
+          client.say(channel, `Retrouve moi un peu partout : Insta --> https://pooks.fr/l/instagram / Youtube --> https://pooks.fr/l/youtube / Discord --> https://p.ws/discord`);
           break;
       }
     }
@@ -105,26 +105,26 @@ client.on('message', (channel, tags, message, self) => {
     // public command
     switch (command) {
       case 'discord':
-        client.say(channel, `Retrouve nous sur le discord de la niche --> https://p.ws/discord`);
+        client.say(channel, `Retrouve nous sur le discord de BichonWood --> https://pooks.fr/l/discord`);
         break;
       case 'youtube':
       case 'ytb':
       case 'yt':
       case 'replay':
-          client.say(channel, `Mes bétises sont aussi disponible sur youtube --> https://p.ws/youtube`);
+          client.say(channel, `Mes bétises sont aussi disponible sur youtube --> https://pooks.fr/l/youtube`);
           break;
       case 'work':
       case 'quoiquonfait':
         client.say(channel, `On design le manoir de votre serviteur`);
         break;
       case 'planning':
-        client.say(channel, `Euh... on verra sinon c'est ici --> https://p.ws/planning`);
+        client.say(channel, `Euh... on verra sinon c'est ici --> https://pooks.fr/l/planning`);
         break;
       case 'deniche':
         client.say(channel, `DéNICHE est l'émission ou je code, design ou découvre des sites et des technologies.`);
         break;
       case 'notifs':
-        client.say(channel, `Rendez-vous sur le serveur discord de La Niche --> https://p.ws/discord dans le channel #commandes et fait : /notifs`);
+        client.say(channel, `Rendez-vous sur le serveur discord de La Niche --> https://pooks.fr/l/discord dans le channel #commandes et fait : /notifs`);
         break;
       //case 'owncube':
       //  client.say(channel, `Own Cube est un serveur Minecraft ⛏️ privé sur invitation en 1.18 - Retrouve tout les paramètres du serveur sur https://owncube.darkbichon.tv`);
@@ -155,12 +155,12 @@ client.on('message', (channel, tags, message, self) => {
         client.say(channel, `/me Qui suis-je ? Que fait-je ? Où vais-je ?`);
         break;
       case 'pws':
-        client.say(channel, `PWS --> PooksWebService : envie de découvrir mes différents projets de développement : https://p.ws/github`);
+        client.say(channel, `PWS --> PooksWebService : envie de découvrir mes différents projets de développement : https://pooks.fr/l/github`);
         break;
       case 'git':
       case 'github':
       case 'hub':
-          client.say(channel, `Envie de voir mon code ? C'est ici --> https://p.ws/github`);
+          client.say(channel, `Envie de voir mon code ? C'est ici --> https://pooks.fr/l/github`);
           break;
           
       case 'satisfactory':
