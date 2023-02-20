@@ -97,7 +97,7 @@ client.on('message', (channel, tags, message, self) => {
           client.say(channel, `File découvrir lolytroly --> https://twitch.tv/lolytroly`);
           break;
         case 'social':
-          client.say(channel, `Retrouve moi un peu partout : Insta --> https://pooks.fr/l/instagram / Youtube --> https://pooks.fr/l/youtube / Discord --> https://p.ws/discord`);
+          client.say(channel, `Retrouve moi un peu partout : Insta --> https://l.pooks.fr/instagram / Youtube --> https://l.pooks.fr/youtube / Discord --> https://l.pooks.fr/discord`);
           break;
       }
     }
@@ -105,23 +105,23 @@ client.on('message', (channel, tags, message, self) => {
     // public command
     switch (command) {
       case 'discord':
-        client.say(channel, `Retrouve nous sur le discord de BichonWood --> https://pooks.fr/l/discord`);
+        client.say(channel, `Retrouve nous sur le discord de BichonWood --> https://l.pooks.fr/discord`);
         break;
       case 'youtube':
       case 'ytb':
       case 'yt':
       case 'replay':
-          client.say(channel, `Mes bétises sont aussi disponible sur youtube --> https://pooks.fr/l/youtube`);
+          client.say(channel, `Mes bétises sont aussi disponible sur youtube --> https://l.pooks.fr/youtube`);
           break;
       case 'work':
       case 'quoiquonfait':
         client.say(channel, `On design le manoir de votre serviteur`);
         break;
       case 'planning':
-        client.say(channel, `Euh... on verra sinon c'est ici --> https://pooks.fr/l/planning`);
+        client.say(channel, `Euh... on verra sinon c'est ici --> https://l.pooks.fr/planning`);
         break;
       case 'deniche':
-        client.say(channel, `DéNICHE est l'émission ou je code, design ou découvre des sites et des technologies.`);
+        client.say(channel, `DéNICHE est l'émission où je code, design ou découvre des sites et des technologies.`);
         break;
       case 'notifs':
         client.say(channel, `Rendez-vous sur le serveur discord de La Niche --> https://pooks.fr/l/discord dans le channel #commandes et fait : /notifs`);
@@ -146,7 +146,7 @@ client.on('message', (channel, tags, message, self) => {
       case 'cmd':
       case 'commandes':
       case 'commande':
-        client.say(channel, `Voici la liste des commandes, ajoute un "!" devant : discord, notifs, replay, join, planning, youtube, quoiquonfait. Retrouve les aussi sur : https://pastille.pookswebservice.fr/twitch#commands`);
+        client.say(channel, `Voici la liste des commandes, ajoute un "!" devant : discord, notifs, replay, join, planning, youtube, quoiquonfait. Retrouve les aussi sur : https://pastille.jeremiemeunier.fr/twitch#commands`);
         break;
       case 'relou':
         client.say(channel, `🚨 ALERTE RELOU ! 🚨 Mise en place du place VIGIRELOU !`);
@@ -154,13 +154,10 @@ client.on('message', (channel, tags, message, self) => {
       case 'pastille':
         client.say(channel, `/me Qui suis-je ? Que fait-je ? Où vais-je ?`);
         break;
-      case 'pws':
-        client.say(channel, `PWS --> PooksWebService : envie de découvrir mes différents projets de développement : https://pooks.fr/l/github`);
-        break;
       case 'git':
       case 'github':
       case 'hub':
-          client.say(channel, `Envie de voir mon code ? C'est ici --> https://pooks.fr/l/github`);
+          client.say(channel, `Envie de voir mon code ? C'est ici --> https://github.com/jeremiemeunier`);
           break;
           
       case 'satisfactory':
