@@ -1,1 +1,5 @@
 .env
+secret.json
+settings.json
+node_modules
+*-lock.json
