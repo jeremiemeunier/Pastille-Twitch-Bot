@@ -68,7 +68,7 @@ client.on('message', (channel, tags, message, self) => {
 
   if(!message.startsWith('!') && !self && rules < 9) { rules++; } // Tout les 10 messages hors bot et commandes on envoie ces messages 
   else if(!message.startsWith('!') && !self) {
-    client.say(channel, `Quelques règles de bienséance : Tu ne spammera pas  -  Les liens tu enverra aux vigiles d'abord (pour les connaîtres : /mods)  -  Tu n'insultera pas\r\n`);
+    client.say(channel, `Quelques règles de bienséance : Tu ne spammera point  –  Les liens tu enverra aux vigiles d'abord (pour les connaîtres : /mods)  –  Tu n'insultera point\r\n`);
     rules = 0;
   }
 
